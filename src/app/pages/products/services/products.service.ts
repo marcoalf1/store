@@ -14,5 +14,5 @@ export class ProductsService {
   getProducts() : Observable<Product[]> {
     return this.http.get<Product[]>(this.apiURL);
   }
-
+ 
 }
