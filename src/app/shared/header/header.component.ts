@@ -4,9 +4,11 @@ import { Component } from '@angular/core';
   selector: 'app-header',
   template: `
               <mat-toolbar color="primary">
-                <span>My Store</span>
+                <span>My Store </span>
+                <app-cart></app-cart>
               </mat-toolbar>
             `,
   styleUrls: ['./header.component.scss']
 })
-export class HeaderComponent { }
+export class HeaderComponent {
+ }
